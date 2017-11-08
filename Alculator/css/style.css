@@ -1,0 +1,66 @@
+/* Start CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body {
+	background-color: white;
+	color:black;
+	font-family: 'Roboto', monospace, sans-serif;
+	font-size: 24px;
+	line-height: 1.5;
+	
+
+}
+footer {
+	background-color: white;
+	margin: 20px 0px;
+	text-align: center;
+}
+h1, h2 {
+	color: black;
+}
+
+h1 {
+	font-size: 65px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+header {background: white;
+margin-bottom:20px;}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:black; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+/* ID and Classes */
+
+#container {
+	
+	
+}
+
+.grey-block {
+	text-align: center;
+	background-color: orange;
+	margin: 2px 0px;
+	padding: 20px 0px;	
+}
+
+.yellow-block {
+	background-color: #EEB902
+}

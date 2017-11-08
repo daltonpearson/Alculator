@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- saved from url=(0014)about:internet -->
+	<title>Alculator</title>
+	<script src="Beer-Base.js"></Script>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+		
+	<form action=# class="grey-block">
+		<h1>Alculator</h1>
+		<h2>
+			Percent(%):<input type="number" id="percent" value="">
+		</h2>
+		<h2>
+			Amount(Quantity):<input type="number" id="amount" value="">
+		</h2>
+		<h2>
+			Volume(mL):<input type="number" id="volume" value="">
+		</h2>
+		<h2>
+			Price($):<input type="number" id="price" value="">
+		</h2>
+		<h2>
+			<hr>
+			Alcohol Per Dollar(ml alc/$):<input type="text" id="apd" value="" readonly="readonly"></h2>
+			<h2>Volume Per Dollar(ml/$):<input type="number" id="vpd" value="" readonly="readonly">
+		</h2>
+		<p>
+			<input type="button" value="Hold My Beer" id="btnBeer" onclick="btnBeer_onclick()">
+			<input type="reset">
+		</p>
+	</form>
+	<noscript>This website requires JavaScript to be enabled.</noscript>
+</body>
+</html>
