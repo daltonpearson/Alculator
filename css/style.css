@@ -7,6 +7,7 @@
 }
 
 body {
+	width: 100%;
 	background-color: white;
 	color:black;
 	font-family: 'Roboto', monospace, sans-serif;
@@ -56,7 +57,6 @@ a:hover
 
 .grey-block {
 	text-align: center;
-	width: 980px;
 	background-color: orange;
 	margin: 2px 0px;
 	padding: 20px 0px;	
