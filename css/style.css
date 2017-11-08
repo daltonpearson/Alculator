@@ -3,6 +3,7 @@
 *{
     margin:0;
     padding:0;
+
 }
 
 body {
@@ -11,8 +12,7 @@ body {
 	font-family: 'Roboto', monospace, sans-serif;
 	font-size: 24px;
 	line-height: 1.5;
-	text-align: right;
-	width: 375px;
+	
 
 }
 footer {
@@ -55,6 +55,8 @@ a:hover
 }
 
 .grey-block {
+	text-align: center;
+	width: 980px;
 	background-color: orange;
 	margin: 2px 0px;
 	padding: 20px 0px;	
