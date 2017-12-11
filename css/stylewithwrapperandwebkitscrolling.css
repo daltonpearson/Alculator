@@ -18,14 +18,7 @@ html{
 	background-position: center;
 	background-repeat: no-repeat;*/
 
-	background: url('../images/stuff.jpg') fixed center no-repeat;
-
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	
-	background-size: cover;
-	background-attachment: fixed;
+	text-align:center;
 }
 
 /* IDs */
