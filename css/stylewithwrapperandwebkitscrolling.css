@@ -1,5 +1,7 @@
 html, body, div{
     margin: 0;
+    border:0;
+    padding:0;
 }
 body {
 	font-family: Arial,Verdana,sans-serif;
@@ -12,6 +14,7 @@ h1{
 	font-family: Tahoma,Arial,sans-serif;
 	font-size: 64px;
 	line-height: 1;
+	margin: 0;
 }
 
 /* Start */
@@ -32,21 +35,18 @@ html{
 	background-position: center;
 	background-repeat: no-repeat;*/
 
-	background: url('../images/stuff.jpg') fixed center no-repeat;
+	background: url('../images/stuff.jpg') fixed top no-repeat;
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	
+	margin:0;
 	background-size: cover;
 	background-attachment:fixed;
+	background-position:fixed;
 	-webkit-overflow-scrolling: auto;
 }
 
-#container {
-	margin: 20px auto;
-	width: 90%;
-}
 
 #info {
 	width: 70%;

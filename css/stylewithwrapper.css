@@ -1,4 +1,4 @@
-html, body, div{
+html, body, div, #wrapper{
     margin: 0;
 }
 
@@ -13,6 +13,7 @@ h1{
 	font-family: Tahoma,Arial,sans-serif;
 	font-size: 64px;
 	line-height: 1;
+	margin: 0;
 }
 
 /* Start */
@@ -23,7 +24,7 @@ html{
 	background-repeat: no-repeat;*/
 	margin:0;
 	text-align:center;
-	width:100%;
+	
 
 
 }
@@ -36,7 +37,7 @@ html{
 	background-repeat: no-repeat;*/
 	margin:0;
 
-	background: url('../images/stuff.jpg') fixed center no-repeat;
+	background: url('../images/stuff.jpg') fixed top no-repeat;
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -47,10 +48,6 @@ html{
 	background-attachment:fixed;
 }
 
-#container {
-	margin: 20px auto;
-	width: 90%;
-}
 
 #info {
 	width: 70%;
